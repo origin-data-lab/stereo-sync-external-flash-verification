@@ -1,0 +1,55 @@
+{
+  "note": 22,
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "optical left − right switch timing per recording (gamma 1)",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/summary.csv",
+        "assets/tables/edges_gamma1.csv",
+        "analysis/fn22_flash_sync.py"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "within ±0.15 ms for gamma 0.7–2.2",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/gamma_sensitivity.csv",
+        "assets/tables/row_bands.csv"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "no real black/white state disagreement between eyes",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/summary.csv",
+        "analysis/fn22_flash_sync.py"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "metadata exposure-start difference and per-eye exposure difference",
+      "status": "Verified (automated)",
+      "evidence": [
+        "assets/tables/summary.csv"
+      ]
+    }
+  ],
+  "inputs": {
+    "environment": {
+      "python": "3.10.12",
+      "opencv": "5.0.0",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "matplotlib": "3.10.9",
+      "scipy": "1.15.3",
+      "ffmpeg": "4.4.2",
+      "os": "Linux x86_64 (CPU only)",
+      "analysis_date": "2026-11-08"
+    },
+    "recording": "2026-11-08 13:32 chunk 00000 (recording 1), 2026-11-08 13:36 chunk 00000 (recording 2, flashing 0–120 s); R8 stereo+IMU, same unit as Field Notes #15–#21"
+  }
+}

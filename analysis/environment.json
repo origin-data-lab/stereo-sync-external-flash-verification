@@ -1,0 +1,11 @@
+{
+  "python": "3.10.12",
+  "opencv": "5.0.0",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "matplotlib": "3.10.9",
+  "scipy": "1.15.3",
+  "ffmpeg": "4.4.2",
+  "os": "Linux x86_64 (CPU only)",
+  "analysis_date": "2026-11-08"
+}
